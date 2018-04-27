@@ -1,9 +1,9 @@
 import {
   Universe
-} from "./wasm_game_of_life";
+} from "wasm_game_of_life";
 import {
   memory
-} from "./wasm_game_of_life_bg";
+} from "wasm_game_of_life_bg";
 
 const CELL_SIZE = 5; // px
 const GRID_COLOR = "#CCCCCC";

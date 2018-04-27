@@ -1,5 +1,5 @@
 /* tslint:disable */
-import * as wasm from './wasm_game_of_life_bg';
+import * as wasm from 'wasm_game_of_life_bg';
 
 const __wbg_f_random_random_n_target = Math.random;
 
