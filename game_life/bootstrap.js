@@ -137,7 +137,7 @@
 /******/
 /******/ 			// a Promise means "currently loading" or "already loaded".
 /******/ 			promises.push(installedWasmModuleData ||
-/******/ 				(installedWasmModules[wasmModuleId] = fetch(__webpack_require__.p + "" + {"./wasm_game_of_life_bg.wasm":"581eb6611daa74de315c"}[wasmModuleId] + ".module.wasm").then(function(response) {
+/******/ 				(installedWasmModules[wasmModuleId] = fetch(__webpack_require__.p + "" + {"./wasm_game_of_life_bg.wasm":"e861ff484a0d81be9aa3"}[wasmModuleId] + ".module.wasm").then(function(response) {
 /******/ 					if(WebAssembly.compileStreaming) {
 /******/ 						return WebAssembly.compileStreaming(response);
 /******/ 					} else {
